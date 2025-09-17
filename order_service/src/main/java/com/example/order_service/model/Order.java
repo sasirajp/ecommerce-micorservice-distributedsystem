@@ -17,8 +17,8 @@ public class Order {
 
     public static List<Order> getOrders() {
         return List.of(new Order("sasi", 100, "upi", "razaorPay", List.of("a", "b")),
-                new Order("Monica", 100, "upi", "razaorPay", List.of("a", "b")),
-                new Order("Aryabhatta", 100, "upi", "razaorPay", List.of("a", "b"))
+                new Order("Monica", 50, "Credit Card", "jusPay", List.of("a", "b")),
+                new Order("Aryabhatta", 100, "Debit Card", "Paypal", List.of("a", "b"))
                 );
     }
 }
